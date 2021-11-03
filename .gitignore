@@ -1,0 +1,23 @@
+# (Archivos principales, projecto compilado)
+.DS_Store
+node_modules
+/dist
+
+# (archivos locales de entorno) - local env files
+.env.local
+.env.*.local
+
+# (Archivos de registro) - Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# (Directorios y archivos del editor) - Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
